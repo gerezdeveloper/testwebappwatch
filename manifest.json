@@ -3,6 +3,7 @@
   "name": "Watch Brasil",
   "description": "Teste de WebApp da watchbr",
   "version": "1.0",
+  "scope": "testwebappwatch.vercel.app",
   "icons": [
     {
       "src": "/images/logo.png",
