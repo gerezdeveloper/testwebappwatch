@@ -1,0 +1,13 @@
+{
+  "id": "com.domain.app",
+  "version": "1.0.0",
+  "vendor": "Andrew Watch",
+  "type": "web",
+  "main": "index.html",
+  "title": "POC Watch",
+  "icon": "icon.png",
+  "requiredPermissions": [
+    "time.query",
+    "activity.operation"
+  ]
+}
