@@ -1,4 +1,41 @@
 {
+"screenshots": [
+  {
+    "src": "https://watchbr-resources-v3.s3.sa-east-1.amazonaws.com/assets/watch/welcome/banner.jpg",
+    "sizes": "2880x1800",
+    "type": "image/png",
+    "description": "Watch WEB Home Deslogada"
+  },
+  {
+    "src": "https://watchbr-resources-v3.s3.sa-east-1.amazonaws.com/assets/watch/welcome/banner.jpg",
+    "sizes": "2880/1800",
+    "type": "image/png",
+    "description": "Test Card"
+  },
+  {
+    "src": "https://watchbr-resources-v3.s3.sa-east-1.amazonaws.com/assets/watch/welcome/banner.jpg",
+    "sizes": "2880x1800",
+    "type": "image/png",
+    "description": "Manifest information Test"
+  }
+],
+
+"shortcuts" : [
+    {
+      "name": "Test",
+      "url": "https://testwebappwatch.vercel.app",
+      "description": "List of events planned for today"
+    },
+    {
+      "name": "New Test",
+      "url": "https://testwebappwatch.vercel.app"
+    },
+    {
+      "name": "New Test 2",
+      "url": "https://testwebappwatch.vercel.app"
+    }
+  ],
+
     "name": "WatchBR",
     "short_name": "webappwatch",
     "start_url": "index.html",
@@ -9,7 +46,11 @@
     "icons": [
       {
         "src": "/images/logo.png",
-        "type": "image/png", "sizes": "192x192"
+        "type": "image/png", "sizes": "512x512"
+      },
+      {
+        "src": "/images/logo.png",
+        "type": "image/png", "sizes": "750x750"
       }
     ]
   }
