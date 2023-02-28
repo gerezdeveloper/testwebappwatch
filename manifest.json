@@ -1,4 +1,19 @@
 {
+  "manifest_version": 3,
+  "name": "Watch Brasil",
+  "description": "Teste de WebApp da watchbr",
+  "version": "1.0",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "type": "image/png", "sizes": "512x512"
+    },
+    {
+      "src": "/images/logo.png",
+      "type": "image/png", "sizes": "750x750"
+    }
+  ],
+
 "screenshots": [
   {
     "src": "https://watchbr-resources-v3.s3.sa-east-1.amazonaws.com/assets/watch/welcome/banner.jpg",
@@ -46,14 +61,16 @@
     "dir": "rtl",
     "lang": "pt",
     "description": "teste de webapp da watch",
-    "icons": [
-      {
-        "src": "/images/logo.png",
-        "type": "image/png", "sizes": "512x512"
-      },
-      {
-        "src": "/images/logo.png",
-        "type": "image/png", "sizes": "750x750"
-      }
-    ]
+
+    "content_scripts": [
+        {
+          "js": [
+            "./index.js"
+          ],
+          "matches": [
+            "https://developer.chrome.com/docs/extensions/*",
+            "https://developer.chrome.com/docs/webstore/*"
+          ]
+        }
+      ]
   }
