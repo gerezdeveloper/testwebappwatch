@@ -1,0 +1,38 @@
+body {
+    background-color: #1c1c1f;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    transition: .4s ease all;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.logo-center img {
+    filter: drop-shadow(0 0 5px black);
+}
+
+.texts-center {
+    margin-top: 200px;
+}
+
+.texts-center h1 {
+    font-size: 60px;
+    color: #fff;
+    filter: drop-shadow(0 0 5px black);
+}
+
+.texts-center h2 {
+    font-size: 35px;
+    color: #e86041;
+    filter: drop-shadow(0 0 2px black);
+}
+
