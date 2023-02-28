@@ -43,6 +43,9 @@
     "background_color": "#1c1c1f",
     "theme_color": "#e86041",
     "orientation": "landscape-primary",
+    "dir": "rtl",
+    "lang": "pt",
+    "description": "teste de webapp da watch",
     "icons": [
       {
         "src": "/images/logo.png",
