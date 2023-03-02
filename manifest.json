@@ -4,6 +4,7 @@
   "description": "Teste de WebApp da watchbr",
   "version": "1.0",
   "scope": "testwebappwatch.vercel.app",
+  "categories": ["movies", "series"],
   "icons": [
     {
       "src": "/images/logo.png",
@@ -52,7 +53,6 @@
     }
   ],
 
-    "name": "WatchBR",
     "short_name": "webappwatch",
     "start_url": "index.html",
     "display": "standalone",
