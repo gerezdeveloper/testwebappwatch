@@ -4,7 +4,7 @@
   "description": "Teste de WebApp da watchbr",
   "version": "1.0",
   "scope": "testwebappwatch.vercel.app",
-  "categories": ["movies", "series"],
+  "categories": "movies",
   "icons": [
     {
       "src": "/images/logo.png",
@@ -52,7 +52,6 @@
       "url": "https://testwebappwatch.vercel.app"
     }
   ],
-
     "short_name": "webappwatch",
     "start_url": "index.html",
     "display": "standalone",
@@ -61,6 +60,24 @@
     "orientation": "landscape-primary",
     "dir": "rtl",
     "lang": "pt",
+    "prefer_related_applications": false,
+    "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+    "share_target": {
+      "action": "/shared-content-receiver/",
+      "method": "GET",
+      "params": {
+        "title": "name",
+        "text": "description",
+        "url": "link"
+      }
+    },
+    
+    "related_applications": 
+      {
+        "platform": "watch",
+        "url": "https://testwebappwatch.vercel.app",
+        "id": "watchtestewebapp"
+      },
     "description": "teste de webapp da watch",
 
     "content_scripts": [
